@@ -1,0 +1,6 @@
+"Category","Key Features","Purpose","Example Sources"
+"Customer Demographics","Age, gender, location (e.g., Mumbai PIN), income proxy, tenure","Segmentation (e.g., young urban families)","Kaggle Insurance Customer Data ; IRDAI stats"
+"Policy Details","Policy type (auto/health), premium, coverage amount, renewal date, bundle status","Upsell prediction","IRDAI policy issuance data ; Kaggle Churn datasets"
+"Claims History","Claim date, amount, frequency, type (fraud flag), approval status","Risk profiling, churn signals","Insurance Claims CSV (Mendeley) ; HCCI Claims"
+"Behavioral/Engagement","Interactions (app logins, telematics scores), payment history, grievances","Growth forecasting (e.g., loyalty)","MarketScan/Optum claims ; Spanish Health Insurance"
+"External/Contextual","Weather (for parametric), economic indicators, state-wise solvency","Risk adjustment","IRDAI state-wise premiums/claims"
