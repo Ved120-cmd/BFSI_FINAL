@@ -1,0 +1,39 @@
+/* frontend/src/Login.css */
+.app-container { position: relative; width: 100vw; height: 100vh; overflow: hidden; }
+.blurred-dashboard-bg { display: flex; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; filter: blur(12px); opacity: 0.7; transform: scale(1.03); background-color: #f4f7f9; pointer-events: none; }
+.mock-sidebar { width: 260px; background-color: #0b132b; padding: 24px; display: flex; flex-direction: column; }
+.mock-logo { color: white; font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; gap: 12px; margin-bottom: 40px; }
+.mock-nav-menu { display: flex; flex-direction: column; gap: 8px; }
+.mock-nav-item { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 8px; color: #8a9bb3; font-size: 0.9rem; font-weight: 500; }
+.mock-nav-item.active { background-color: rgba(255, 255, 255, 0.08); color: white; }
+.mock-main { flex: 1; display: flex; flex-direction: column; padding: 24px 40px; }
+.mock-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
+.mock-search { background: white; padding: 10px 16px; border-radius: 20px; width: 400px; color: #a0aec0; display: flex; align-items: center; gap: 10px; }
+.mock-profile { width: 36px; height: 36px; background: #2563eb; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; }
+.mock-header-text { font-size: 1.5rem; font-weight: 700; color: #1a202c; margin-bottom: 20px; }
+.mock-content { display: flex; flex-direction: column; gap: 24px; }
+.mock-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.mock-card { background: white; border-radius: 12px; }
+.stat-card { height: 120px; } .wide-card { height: 300px; width: 100%; }
+.auth-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; display: flex; justify-content: center; align-items: center; background-color: rgba(11, 19, 43, 0.45); }
+.auth-modal { background-color: #ffffff; width: 100%; max-width: 440px; border-radius: 16px; padding: 48px 40px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); animation: modalFadeIn 0.4s ease-out; }
+@keyframes modalFadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.modal-header { text-align: center; margin-bottom: 32px; }
+.brand { display: flex; align-items: center; justify-content: center; gap: 10px; color: #0b132b; margin-bottom: 16px; }
+.brand-icon { color: #1d4ed8; }
+.brand h2 { font-size: 1.15rem; font-weight: 700; }
+.modal-header h3 { font-size: 1.4rem; font-weight: 600; color: #1e293b; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: #475569; margin-bottom: 8px; }
+.form-group input { width: 100%; padding: 12px 16px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; background-color: #f8fafc; outline: none; color: #0f172a; }
+.form-group input:focus { border-color: #2563eb; background-color: #ffffff; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+.password-input-wrapper { position: relative; display: flex; align-items: center; }
+.eye-btn { position: absolute; right: 16px; background: none; border: none; color: #94a3b8; cursor: pointer; }
+.form-options { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; font-size: 0.85rem; }
+.submit-btn { width: 100%; background-color: #1d4ed8; color: white; border: none; border-radius: 8px; padding: 14px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+.submit-btn:hover { background-color: #1e40af; }
+.modal-footer { display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 28px; font-size: 0.9rem; }
+.switch-mode-btn { background: none; border: none; color: #2563eb; font-weight: 600; cursor: pointer; }
+.alert { padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; text-align: center; font-weight: 500; }
+.alert.error { background-color: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
+.alert.success { background-color: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
