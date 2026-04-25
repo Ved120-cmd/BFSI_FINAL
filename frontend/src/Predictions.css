@@ -170,19 +170,3 @@
   font-size: 0.9rem;
   line-height: 1.5;
 }
-
-/* Predictions.css — additional styles for the Predictions page */
-
-/* Smooth focus ring for inputs */
-.page-body .input-group input:focus,
-.page-body .input-group select:focus {
-  outline: none;
-  border-color: var(--primary, #6366f1);
-  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
-}
-
-/* Disabled button */
-.primary-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
