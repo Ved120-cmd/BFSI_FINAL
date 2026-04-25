@@ -1,4 +1,4 @@
-Model,Best Algorithm,Test AUC,Accuracy
-High-Value Customer,Random Forest,1.0,1.0
-Churn Risk,Logistic Reg,1.0,0.9706
-Fraud Detection,Logistic Reg,0.81,0.835
+Model,Best Algorithm,Test AUC,Accuracy,F1 Score
+Churn Risk,Random Forest,1.0,1.0,1.0
+Loyalty Detection,Random Forest,1.0,1.0,1.0
+Fraud Detection,Logistic Reg,0.8102,0.835,0.6916
