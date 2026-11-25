@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
 const router = express.Router();
-const JWT_SECRET = 'your_super_secret_key_change_this_later';
+const JWT_SECRET = '16f1b3825cb15cb7c53d7692d5c687f337d65212bcb7fa56367060a9e3c643784d70eaab51dd47d6a1cb9dc8f2fc5065351c98bb0c08fe4e925156895902b553';
 
 // Register Route
 router.post('/register', async (req, res) => {
